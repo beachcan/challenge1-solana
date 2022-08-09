@@ -7,8 +7,8 @@ const {
     LAMPORTS_PER_SOL
 } = require("@solana/web3.js");
 
-// Specify airdrop address
-const publicKey = 'pra3K9s6HMCvNUKfXSkCcFq7MWX5zqoc5braHpQRHYR'
+// Specify airdrop address using CLI argument
+const publicKey = process.argv.slice(2).toString();
 
 // Connect to the Devnet
 const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
