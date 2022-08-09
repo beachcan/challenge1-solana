@@ -1,3 +1,3 @@
 # challenge1-solana
 
-metacrafters module 2 challenge - airdrop to specific address
+metacrafters module 2 challenge - airdrop to specific address using CLI
