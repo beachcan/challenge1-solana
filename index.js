@@ -1,4 +1,4 @@
-// Import Solana web3 functinalities
+// Import Solana web3 functionalities
 const {
     Connection,
     PublicKey,
